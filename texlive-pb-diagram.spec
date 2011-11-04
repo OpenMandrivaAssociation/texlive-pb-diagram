@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/pb-diagram
+# catalog-date 2008-04-20 19:53:04 +0200
+# catalog-license other-free
+# catalog-version 5.0
 Name:		texlive-pb-diagram
 Version:	5.0
 Release:	1
@@ -43,6 +49,7 @@ TeXLive pb-diagram package.
 %doc %{_texmfdistdir}/doc/latex/pb-diagram/pb-examples.tex
 %doc %{_texmfdistdir}/doc/latex/pb-diagram/pb-manual.pdf
 %doc %{_texmfdistdir}/doc/latex/pb-diagram/pb-manual.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ TeXLive pb-diagram package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
