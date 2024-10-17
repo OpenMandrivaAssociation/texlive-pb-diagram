@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	A commutative diagram package using LAMSTeX or Xy-pic fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/pb-diagram
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/pb-diagram
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pb-diagram.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pb-diagram.doc.r%{version}.tar.xz
